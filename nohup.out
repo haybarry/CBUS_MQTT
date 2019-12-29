@@ -1,0 +1,126 @@
+tftspi instantiated
+Drawing Grid
+Welcome
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+data published 
+
+Traceback (most recent call last):
+  File "ScreenTest.py", line 213, in <module>
+    while ser.in_waiting:
+KeyboardInterrupt
+tftspi instantiated
+Drawing Grid
+Welcome
+Traceback (most recent call last):
+  File "ScreenTest.py", line 233, in <module>
+    decodeMMI(cbus[6:18])
+  File "ScreenTest.py", line 112, in decodeMMI
+    protocol=mqtt.MQTTv311, transport="tcp")
+  File "/home/pi/.local/lib/python3.5/site-packages/paho/mqtt/publish.py", line 223, in single
+    protocol, transport)
+  File "/home/pi/.local/lib/python3.5/site-packages/paho/mqtt/publish.py", line 159, in multiple
+    client.connect(hostname, port, keepalive)
+  File "/home/pi/.local/lib/python3.5/site-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/home/pi/.local/lib/python3.5/site-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
